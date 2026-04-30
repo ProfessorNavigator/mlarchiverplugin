@@ -137,6 +137,29 @@ MainWindow::openArchiveDialog()
       fd->setDefaultSuffix(sup.begin()->c_str());
     }
 
+  connect(fd, &QFileDialog::filterSelected,
+          [fd](const QString &filter)
+            {
+              QString local = filter;
+              QString search = " ";
+              qsizetype n = local.indexOf(search);
+              if(n >= 0)
+                {
+                  local.erase(local.begin() + n, local.end());
+                }
+              search = "*.";
+              n = local.indexOf(search);
+              if(n >= 0)
+                {
+                  local.erase(local.begin(),
+                              local.begin() + n + search.size());
+                }
+              if(!local.isEmpty())
+                {
+                  fd->setDefaultSuffix(local);
+                }
+            });
+
   QStringList filters;
   for(auto it = sup.begin(); it != sup.end(); it++)
     {

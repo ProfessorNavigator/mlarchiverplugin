@@ -138,22 +138,22 @@
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="224"/>
+        <location filename="../src/MainWindow.cpp" line="247"/>
         <source>Archive path is empty!</source>
         <translation>Путь до архива пуст!</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="233"/>
+        <location filename="../src/MainWindow.cpp" line="256"/>
         <source>Incorrect archive extesinon! Extension must be one of the following:</source>
         <translation>Некорркетное расширение файла архива! Расширение может иметь следующие значения:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="263"/>
+        <location filename="../src/MainWindow.cpp" line="286"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="299"/>
+        <location filename="../src/MainWindow.cpp" line="322"/>
         <source>Loading archive...</source>
         <translation>Загрузка архива...</translation>
     </message>
