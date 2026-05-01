@@ -38,7 +38,7 @@ WriteArchive::WriteArchive(const std::shared_ptr<MLBookProc> &mlbp,
 void
 WriteArchive::writeArchive()
 {
-  tmp = archive_path.parent_path();
+  tmp = archive_path.parent_path();  
   tmp /= mlbp->randomFileName();
   tmp.replace_extension(archive_path.extension());
 
@@ -60,6 +60,19 @@ WriteArchive::writeArchive()
   if(er != ARCHIVE_OK)
     {
       archiveError(a_write, "WriteArchive::writeArchive:");
+    }
+
+  er = archive_write_set_options(a_write.get(), "hdrcharset=UTF-8");
+  if(er != ARCHIVE_OK)
+    {
+      try
+        {
+          archiveError(a_write, "WriteArchive::writeArchive:");
+        }
+      catch(std::exception &ex)
+        {
+          std::cout << ex.what() << std::endl;
+        }
     }
 
   er = archive_write_open(
