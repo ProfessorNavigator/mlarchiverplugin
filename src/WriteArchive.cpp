@@ -236,6 +236,7 @@ WriteArchive::processOriginalArchive()
               }
 
             std::string buf = unpackEntryToBuffer(a_read, e);
+            setUsernameGroupname(e);
             if(buf.size() > 0)
               {
                 writeBufferToArchive(a_write, e, buf);
