@@ -36,12 +36,8 @@ target_link_libraries(MLArchiverPlugin
     Threads::Threads
 )
 
-qt_collect_translation_source_targets(i18n_targets DIRECTORY src)
-
-qt_add_translations(
-    TARGETS MLArchiverPlugin
-    SOURCE_TARGETS ${i18n_targets}
-    TS_FILES translations/MLArchiverPlugin_ru_RU.ts
+qt_add_translations(MLArchiverPlugin
+  TS_FILES translations/MLArchiverPlugin_ru_RU.ts
 )
 
 include(GNUInstallDirs)

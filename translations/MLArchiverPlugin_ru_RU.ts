@@ -108,52 +108,52 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../src/MainWindow.cpp" line="49"/>
+        <location filename="../src/MainWindow.cpp" line="50"/>
         <source>Archiver</source>
         <translation>Архиватор</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="69"/>
+        <location filename="../src/MainWindow.cpp" line="70"/>
         <source>Archive path:</source>
         <translation>Архив:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="77"/>
+        <location filename="../src/MainWindow.cpp" line="78"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="89"/>
+        <location filename="../src/MainWindow.cpp" line="90"/>
         <source>Edit archive if it exists</source>
         <translation>Редактировать архив, если он существует</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="96"/>
+        <location filename="../src/MainWindow.cpp" line="97"/>
         <source>Apply</source>
         <translation>Применить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="107"/>
+        <location filename="../src/MainWindow.cpp" line="108"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="247"/>
+        <location filename="../src/MainWindow.cpp" line="248"/>
         <source>Archive path is empty!</source>
         <translation>Путь до архива пуст!</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="256"/>
+        <location filename="../src/MainWindow.cpp" line="257"/>
         <source>Incorrect archive extesinon! Extension must be one of the following:</source>
         <translation>Некорркетное расширение файла архива! Расширение может иметь следующие значения:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="286"/>
+        <location filename="../src/MainWindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="322"/>
+        <location filename="../src/MainWindow.cpp" line="323"/>
         <source>Loading archive...</source>
         <translation>Загрузка архива...</translation>
     </message>

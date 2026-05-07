@@ -15,6 +15,7 @@
  */
 
 #include <MainWindow.h>
+#include <QApplication>
 #include <QFileDialog>
 #include <QGraphicsDropShadowEffect>
 #include <QHBoxLayout>
