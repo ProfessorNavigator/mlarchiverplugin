@@ -28,6 +28,7 @@
 #include <QScreen>
 #include <QStyleOption>
 #include <QVBoxLayout>
+#include <StyledItemDelegate.h>
 #include <StyledWindow.h>
 #include <iostream>
 #include <thread>
@@ -80,6 +81,10 @@ AddFilesWindow::createWindow(const std::filesystem::path &archive_path)
   table = new TableView;
   table->setObjectName("Table");
   table->viewport()->setObjectName("TableViewport");
+  QAbstractItemDelegate *delegate = table->itemDelegate();
+  StyledItemDelegate *item_delegate = new StyledItemDelegate(table);
+  table->setItemDelegate(item_delegate);
+  delete delegate;
   connect(table, &TableView::signalResized, this,
           [this](const QSize &sz)
             {

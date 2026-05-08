@@ -4,6 +4,7 @@ target_sources(MLArchiverPlugin PRIVATE
     FilesModelItem.cpp
     MainWindow.cpp
     MLArchiverPlugin.cpp
+    StyledItemDelegate.cpp
     StyledWindow.cpp
     TableView.cpp
     WriteArchive.cpp

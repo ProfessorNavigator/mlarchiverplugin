@@ -4,90 +4,90 @@
 <context>
     <name>AddFilesWindow</name>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="44"/>
+        <location filename="../src/AddFilesWindow.cpp" line="45"/>
         <source>Files</source>
         <translation>Файлы</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="116"/>
-        <location filename="../src/AddFilesWindow.cpp" line="150"/>
+        <location filename="../src/AddFilesWindow.cpp" line="121"/>
+        <location filename="../src/AddFilesWindow.cpp" line="155"/>
         <source>Add files</source>
         <translation>Добавить файлы</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="121"/>
-        <location filename="../src/AddFilesWindow.cpp" line="161"/>
+        <location filename="../src/AddFilesWindow.cpp" line="126"/>
+        <location filename="../src/AddFilesWindow.cpp" line="166"/>
         <source>Add directory</source>
         <translation>Добавить папку</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="126"/>
+        <location filename="../src/AddFilesWindow.cpp" line="131"/>
         <source>Remove entry</source>
         <translation>Удалить запись</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="173"/>
+        <location filename="../src/AddFilesWindow.cpp" line="178"/>
         <source>Remove selected</source>
         <translation>Удалить выбранное</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="185"/>
+        <location filename="../src/AddFilesWindow.cpp" line="190"/>
         <source>Reset to begin</source>
         <translation>Вернуть в начальное состояние</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="207"/>
+        <location filename="../src/AddFilesWindow.cpp" line="212"/>
         <source>Write archive</source>
         <translation>Сохранить архив</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="218"/>
-        <location filename="../src/AddFilesWindow.cpp" line="333"/>
+        <location filename="../src/AddFilesWindow.cpp" line="223"/>
+        <location filename="../src/AddFilesWindow.cpp" line="338"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="310"/>
+        <location filename="../src/AddFilesWindow.cpp" line="315"/>
         <source>Writing...</source>
         <translation>Запись...</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="343"/>
+        <location filename="../src/AddFilesWindow.cpp" line="348"/>
         <source>Cancelling...</source>
         <translation>Прерывание...</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="410"/>
+        <location filename="../src/AddFilesWindow.cpp" line="415"/>
         <source>File names in archive has conflicts!</source>
         <translation>Конфликтующие имена файлов в архиве!</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="419"/>
+        <location filename="../src/AddFilesWindow.cpp" line="424"/>
         <source>Error!</source>
         <translation>Ошибка!</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="435"/>
+        <location filename="../src/AddFilesWindow.cpp" line="440"/>
         <source>Archive has been created!</source>
         <translation>Архив создан!</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="445"/>
+        <location filename="../src/AddFilesWindow.cpp" line="450"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="475"/>
+        <location filename="../src/AddFilesWindow.cpp" line="480"/>
         <source>Are you sure?</source>
         <translation>Вы уверены?</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="483"/>
+        <location filename="../src/AddFilesWindow.cpp" line="488"/>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
-        <location filename="../src/AddFilesWindow.cpp" line="499"/>
+        <location filename="../src/AddFilesWindow.cpp" line="504"/>
         <source>No</source>
         <translation>Нет</translation>
     </message>

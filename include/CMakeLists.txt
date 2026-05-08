@@ -4,6 +4,7 @@ target_sources(MLArchiverPlugin PRIVATE
     FilesModelItem.h
     MainWindow.h
     MLArchiverPlugin.h
+    StyledItemDelegate.h
     StyledWindow.h
     TableView.h
     WriteArchive.h
