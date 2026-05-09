@@ -191,7 +191,7 @@ StyledItemDelegate::getColor(const std::string &rgba) const
             {
               str = "0" + str;
             }
-          color_str += str.toUpper();
+          color_str = str.toUpper() + color_str;
           break;
         }
     }
