@@ -204,6 +204,10 @@ WriteArchive::processOriginalArchive()
           {
             retry_count = 0;
             const char *val = archive_entry_pathname_utf8(e.get());
+            if(val == nullptr)
+              {
+                val = archive_entry_pathname(e.get());
+              }
             if(val)
               {
                 std::string p_in_arch(val);
